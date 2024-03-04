@@ -45,8 +45,8 @@ android {
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
 
-    api 'io.github.acoustic-analytics:tealeaf:+'
-    implementation 'io.github.acoustic-analytics:eocore:+'
+    api "io.github.acoustic-analytics:tealeaf:10.3.362"
+    implementation "io.github.acoustic-analytics:eocore:2.0.344"
 
     // For testing local jars only
     //    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
